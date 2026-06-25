@@ -1,0 +1,46 @@
+# ========================
+# Terraform State
+# ========================
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Terraform working directory & providers
+.terraform/
+.terraform.lock.hcl
+
+# Plan files
+*.tfplan
+*.plan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# ========================
+# Terraform Var Files (may contain secrets)
+# ========================
+*.tfvars
+*.tfvars.json
+
+# ========================
+# IDE & Editor
+# ========================
+*.code-workspace
+.vscode/
+.idea/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Secrets & Keys
+# ========================
+*.pem
+*.key
+*.cert
+.env
+.env.*
